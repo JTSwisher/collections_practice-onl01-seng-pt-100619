@@ -47,7 +47,9 @@ def sum_array(sum)
 end 
 
 def add_s(add)
-  
+  add.collect.each_with_index |second|
+  if second[] != second[1]
+    "#{second}s"
+  end
 end 
-
 
