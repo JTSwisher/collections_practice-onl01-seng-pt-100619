@@ -48,7 +48,7 @@ end
 
 def add_s(add)
   add.collect do |word|
-    if add[1] = word
+    if add[1] == word
       word
     else
       word = "#{word}s"
